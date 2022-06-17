@@ -39,12 +39,9 @@
 		<!-- nav bar -->
 
 		<!-- Description section -->
-		<!-- Try a different way -->
 		<div class="d-flex justify-content-center">
 			<div class="desc">
 				<div class="card" style="width: 50rem; border-radius: 2rem;">
-					<!-- <img src="../images/styling_show_page_err.png" class="card-img-top"
-					alt="ssbp_err" style="border-radius: 3rem; height: 200px"> -->
 					<h5 class="card-header">Description Notes:</h5>
 					<div class="card-body">
 						<p class="card-text">
@@ -62,7 +59,6 @@
 					style="border-radius: 3rem;">
 			</form>
 		</div>
-		<!-- Try a different way -->
 		<!-- Description section -->
 
 		<!-- Some Bug Fun -->

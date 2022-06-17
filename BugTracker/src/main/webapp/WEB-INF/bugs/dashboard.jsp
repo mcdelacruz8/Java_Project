@@ -45,7 +45,6 @@
 						<th>Bug Name:</th>
 						<th>Assigned Employee:</th>
 						<th>Location:</th>
-						<th>Solution:</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -54,7 +53,6 @@
 							<td><a href="/bugs/${bug.id}"><c:out value="${bug.name}" /></a></td>
 							<td><c:out value="${bug.user.firstName}" /></td>
 							<td><c:out value="${bug.location}" /></td>
-							<td><a href="#"><c:out value="" />link to solution</a></td>
 						</tr>
 					</c:forEach>
 				</tbody>

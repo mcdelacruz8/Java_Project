@@ -34,14 +34,6 @@ public class Bug {
 	@Size(min = 1, max = 255, message="Location cannot be blank.")
 	private String location;
 	
-//	@NotNull
-//	@Size(min = 1, max = 300, message="Choose an Employee to sign cannot be blank.")
-//	private String assignedEmployee;
-
-//	@NotNull
-//	@Min(value = 1, message="Choose correct Date.")
-//	private String date;
-	
 	@NotNull
 	@Size(min = 1, max = 255, message="Description cannot be blank.")
     private String description;
@@ -119,21 +111,5 @@ public class Bug {
 	public void setUser(User user) {
 		this.user = user;
 	}
-
-//	public String getDate() {
-//		return date;
-//	}
-//
-//	public void setDate(String date) {
-//		this.date = date;
-//	}
-//
-//	public String getAssignedEmployee() {
-//		return assignedEmployee;
-//	}
-//
-//	public void setAssignedEmployee(String assignedEmployee) {
-//		this.assignedEmployee = assignedEmployee;
-//	}
     
 }

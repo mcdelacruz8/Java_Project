@@ -22,28 +22,23 @@
 	<div class="container-fluid bg ">
 		<div class="row d-flex justify-content-center">
 
-			<h1 class="d-flex justify-content-center mt-4 title col-7">A
-				Tracker of Bugs</h1>
+			<h1 class="d-flex justify-content-center mt-4 title col-7">
+				<span style="font-weight: bold; font-style: italic;">THE </span>
+				    ... Tracker of Bugs</h1>
 			<!-- Form starts here -->
 		</div>
 		<div class="container d-flex justify-content-evenly mb-6">
 			<div class="card comment position-relative" onclick="remove(this)"
 				style="width: 20rem; border-radius: 3rem;">
-				<!-- 	<div class="embed-responsive embed-responsive-16by9 position-absolute">
-					<iframe class="embed-responsive-item"
-						src="https://www.youtube.com/watch?v=wVq6asr5ZHo"
-						></iframe>
-				</div> -->
 				<img src="../images/bug_hover.jpeg" class="card-img-top "
 					alt="bug hover" style="border-radius: 3rem;">
 
 				<div class="card-body">
-					<h4 class="card-title">Want to see a demo of how this site
-						works?</h4>
-					<p class=" card-text">DISCLAIMER! Video is X Minutes long.
-						Click
-					<p class="font-italic">anywhere</p>
-					on this feature if you want to continue.
+					<h4 class="card-title">Keep track of all the bugs you encounter!</h4>
+					<p class=" card-text"><span style="color: red;">MESSAGE!</span> Site is used to log all bugs to prevent repeating errors.
+						Click...
+					<span class="font-italic">anywhere</span>
+					...on this feature if you want it to disappear.
 				</div>
 			</div>
 
